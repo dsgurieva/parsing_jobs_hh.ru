@@ -26,7 +26,7 @@ class HeadHunterAPI():
         self.page = page
         self.count_page = count_page
 
-        with open('src\employer_id.json', 'r') as f:
+        with open('src/employer_id.json', 'r') as f:
             employers = json.load(f)
 
         results = []
